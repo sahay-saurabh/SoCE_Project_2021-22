@@ -1,0 +1,21 @@
+<%- include('header') %> 
+
+<div class="container-fluid lallan">
+
+   <h3 id="gunda"><b><%=content.title%></b></h3>
+   <hr style="border-bottom: 3px solid #b1adad; margin-bottom: 3%;">
+
+   <ul>
+       <li> <h4> <b> Mentor </b>: <%=content.mentor%></h4>  </li>
+       <li> <h4> <b>Description </b>: <%=content.description%> </h4> </li>
+       <li> <h4> <b>Topic </b>: <%=content.topic%></h4>  </li>
+       <li> <h4> <b>Number of students required </b>: <%=content.number%> </h4>  </li>
+       <li> <h4> <b>Pre Requisite </b>: <%=content.preReq%>  </h4>  </li>
+       <li> <h4> <b>Expected duration </b>:<%=content.duration%> </h4>  </li>
+       <li> <h4> <b>Expected weekly commitment </b>: <%=content.expected%>  </h4> </li>
+    
+   </ul>
+   
+</div>
+
+<%- include('footer') %> 

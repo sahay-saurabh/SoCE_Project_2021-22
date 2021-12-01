@@ -10,6 +10,17 @@ app.get('/',(req,res)=>{
     res.render('index',{data:data});
 })
 
+app.get('/:posts',function(req,res){
+    for(var i=0;i<data.length;i++){
+        if(data[i].mentor==req.params.posts){
+            res.render('post',{content:data[i]});
+        }
+        if(i==data.length){
+            res.redirect('/');
+        }
+    }
+})
+
 app.listen(3000,()=>{
     console.log('server started at port 3000')
 })

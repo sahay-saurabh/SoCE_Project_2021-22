@@ -1,13 +1,13 @@
 var data=[
     {
-        mentor:"MOHD SAQIB",
+        mentor:"Mohd Saqib",
         title:"The behavior of crushable sand under cyclic loading",
         description:"The behavior of crushable sand under cyclic loading",
         topic:"",
         number:"1-2",
         preReq:"Basic soil mechanics",
         duration:"",
-        expected:""
+        expected:"", link:"/Mohd%20Saqib"
     },
     {
         mentor:"Sunil Kumar", 
@@ -17,7 +17,7 @@ var data=[
         number:"5",
         preReq:"Programming skills like Python, Matlab, or any other",
         duration:"",
-        expected:""
+        expected:"", link:"/Sunil%20Kumar"
     },
     {
         mentor:"Saurabh Gupta",
@@ -27,7 +27,7 @@ var data=[
         number:"4",
         preReq:"",
         duration:"",
-        expected:""
+        expected:"", link:"/Saurabh%20Gupta"
     },
     {
         mentor:"Saurabh Gupta",
@@ -37,7 +37,7 @@ var data=[
         number:"3",
         preReq:"Comfortable with English reading and writing.",
         duration:"",
-        expected:""
+        expected:"", link:"/Saurabh%20Gupta"
     },
     {
         mentor:"Vaishali Jain",
@@ -47,7 +47,7 @@ var data=[
         number:"2",
         preReq:"Laptop and good internet connection. Moreover, A 'will' to learn and explore new fields.",
         duration:"",
-        expected:""
+        expected:"", link:"/Vaishali%20Jain"
     },
     {
         mentor:"Amit Tiwari",
@@ -57,7 +57,7 @@ var data=[
         number:"3",
         preReq:"Curiosity",
         duration:"",
-        expected:""
+        expected:"", link:"/Amit%20Tiwari"
     },
     {
         mentor:"Monu Lal Burnwal", 
@@ -67,7 +67,7 @@ var data=[
         number:"2",
         preReq:"Geotechnical earthquake engineering, FEM",
         duration:"",
-        expected:""
+        expected:"", link:"/Monu%20Lal%20Burnwal"
     },
     {
         mentor:"Siddharth Sonker", 
@@ -77,7 +77,7 @@ var data=[
         number:"5",
         preReq:"Have exposure to Python libraries like Pandas, Numpy, etc",
         duration:"",
-        expected:""
+        expected:"", link:"/Siddharth%20Sonker"
     },
     {
         mentor:"Snehil Saluja", 
@@ -87,7 +87,7 @@ var data=[
         number:"3",
         preReq:"Enthu",
         duration:"",
-        expected:""
+        expected:"", link:"/Snehil%20Saluja"
     }
 ]
 

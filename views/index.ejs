@@ -4,13 +4,13 @@
 
     <div class="container">
         <div class="row  justify-content-center">
-            <div class="col-3">
+            <div class="col-sm-3" style="text-align: center;">
                 <img src="/iitk.png" id="iitk" alt="">
             </div>
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-3 motu">
+            <div class="col-sm-3 motu">
                 SoCE, IITK
             </div>
         </div>
@@ -21,7 +21,7 @@
 
 <div class="container-fluid doraemon">
 
-    <div class="row bcs" style="text-align: center;"> <h2 id="bcs"> <u> Projects 2022</h2> </u> </div>
+    <div class="row bcs" style="text-align: center;"> <h2 id="bcs"> <u> Projects 2021-22</h2> </u> </div>
 
     <div class="row">
         <div class="col  lime">
@@ -33,8 +33,11 @@
         <div class="row">
             <% data.forEach(function(chomu){ %> 
             <div class="col-sm-4 paper">
-                <img src="/2.png" alt="">
-                <p id="text"> <%=chomu.title%>  </p>
+                <a href=<%=chomu.link%> >
+                    <img src="/2.png" alt="">
+                    <p id="text"> <%=chomu.title%>  </p>
+                </a>
+               
             </div>
             <% }) %> 
         </div>
