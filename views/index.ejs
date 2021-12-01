@@ -1,0 +1,64 @@
+<%- include('header') %> 
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href=""> <img src="/SoCE-logo.svg" id="logo" alt=""> </a>
+      <a class="navbar-brand brand" href="#">SoCE-IITK</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0   project">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Project 2021</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+</nav>
+
+<div class="container-fluid section1">
+
+    <div class="container">
+        <div class="row  justify-content-center">
+            <div class="col-3">
+                <img src="/iitk.png" id="iitk" alt="">
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-3 motu">
+                SoCE, IITK
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="container-fluid doraemon">
+
+    <div class="row bcs" style="text-align: center;"> <h2 id="bcs"> <u> Projects 2022</h2> </u> </div>
+
+    <div class="row">
+        <div class="col  lime">
+            To register, fill this form latest by 27th March, 11:59 PM - here And join the Stamatics discord server, to interact with the mentors and any other communication- invite link
+        </div>
+    </div>
+
+    <div class="container letter">
+        <div class="row">
+            <% data.forEach(function(chomu){ %> 
+            <div class="col-sm-4 paper">
+                <img src="/2.png" alt="">
+                <p id="text"> <%=chomu.title%>  </p>
+            </div>
+            <% }) %> 
+        </div>
+    </div>
+
+</div>
+
+
+<%- include('footer') %> 

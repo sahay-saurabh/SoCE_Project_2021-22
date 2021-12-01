@@ -1,0 +1,87 @@
+.project{
+   margin-right: 5%;
+}
+
+.brand{
+    margin-left: 0.5%;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 2%;
+}
+
+.section1{
+    background-image: url("/5570834.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    width: 100%;
+    /* background-color: #000; */
+}
+
+#iitk{
+    height: 300px;
+    width: 300px;
+    margin-top: 20vh;
+}
+
+.motu{
+    text-align: center;
+    color:white;
+    margin-top: 2.5%;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.doraemon{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(20, 32, 59);
+}
+
+#bcs{
+    color: #fff;
+    font-size:3rem ;
+    margin-top: 3%;
+    font-weight: 700;
+}
+
+.lime{
+    color:#fff;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.paper{
+    text-align: center;
+    opacity: 0.7;
+}
+
+.paper:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.letter{
+    margin-top: 6%;
+}
+
+#text{
+    color:#fff;
+    margin-top: 5%;
+}
+
+.joota{
+    min-height: 10vh;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.joota p{
+    padding-top: 1.5%;
+}
