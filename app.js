@@ -2,6 +2,7 @@ const express=require('express')
 const ejs=require('ejs')
 const app=express()
 const data=require("./data")
+const PORT=process.env.port || 3000;
 
 app.set('view engine','ejs')
 app.use(express.static('public'))
@@ -21,6 +22,6 @@ app.get('/:posts',function(req,res){
     }
 })
 
-app.listen(3000,()=>{
+app.listen(PORT,()=>{
     console.log('server started at port 3000')
 })
