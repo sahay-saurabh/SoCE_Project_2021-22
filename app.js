@@ -2,7 +2,7 @@ const express=require('express')
 const ejs=require('ejs')
 const app=express()
 const data=require("./data")
-const PORT=process.env.port || 3000;
+const PORT=process.env.PORT || 3000;
 
 app.set('view engine','ejs')
 app.use(express.static('public'))
